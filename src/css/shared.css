@@ -1,0 +1,164 @@
+/* --------------------------------------------GENERAL CONTENT */
+body {}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "proxima-nova";
+	font-weight: 400;
+
+}
+h3 {
+	font-weight: 300;
+}
+	
+h1 {
+	color: #666;
+}
+p {
+	font-family: "proxima-nova";
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.375rem;
+	margin-bottom: 1em;
+}
+a, a:link, a:visited, a:focus, a:hover { 
+	font-family: "proxima-nova";
+	color: #000000; 
+	text-decoration: none; 
+	font-size: 1rem;
+}
+
+a:hover {
+	color: #d1202a;
+}
+body {}
+
+.top-bar{
+	height: 45px;
+	background-color: #f9f9f9;
+}
+.top-bar a{
+	font-size: .8rem;
+	color: #666666;
+}
+
+.top-bar a:hover{
+	color: #d1202a;
+}
+
+.mobile-top-bar{
+	height: 65px;
+	background-color: #f9f9f9;
+}
+.mobile-top-bar .number{
+	text-align: center;
+	margin: 5px;
+}
+.mobile-top-bar .number a{
+	font-size: 20px;
+	color: #c55d63;
+}
+/*.nav-bar {
+	height: 8rem;
+	width: 100%;
+}
+.nav-bar .menu{
+	margin-top: 2rem;
+}
+.nav-bar .logo{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%, -50%);
+}*/
+
+.logo {
+	height: 14rem;
+	width: 10rem;
+	border-radius: 5px;
+	border: 5px solid rgba(209,32,42,.8);
+	background-color: rgba(255,255,255,.8);
+}
+
+.logo img{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	padding-bottom: 10px;
+	padding-bottom: 10px;
+}
+.logo .box-text{
+	text-align: center;
+	position: absolute;
+	padding-left: 1rem;
+}
+.logo .box-text p{
+	font-size: 18px;
+	color: #666666;
+}
+
+.slide .slide-text{
+	color: #fff;
+	position: absolute;
+	top: 25%;
+}
+.slide .slide-text h2{
+	text-shadow: 2px 2px 5px black !important;
+
+}
+.slide .slide-text h3{
+	text-shadow: 2px 2px 5px black !important;
+
+}
+
+.donation-section{
+	padding-top: 2rem;
+}
+
+.progress{
+	max-width: 100%;
+}
+
+.footer{
+	height: 45px;
+	background-color: #f9f9f9;
+}
+.footer p{
+	font-size: .8rem;
+	color: #666666;
+	margin: .5rem auto;
+	text-align: center;
+
+}
+
+.mobile-logo {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+/*Buttons*/
+.button.hwhite{
+	border: 1px solid #fff;
+	color: #fff;
+}
+.button.hwhite:hover{
+	color: #fff;
+	border: 1px solid #d1202a;
+}
+.button.green{
+	background-color: green;
+	color: #fff;
+}
+.button.green:hover{
+	background-color: #fff;
+	color: green;
+	border-color: green;
+}
+/* Small screens  */
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 640px) { }	
+/* Medium screens */
+@media only screen and (max-width: 1024px) { } 
+
+/* Large screens */
+@media only screen and (min-width: 1025px) { } 
